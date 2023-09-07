@@ -281,4 +281,8 @@ public class TreeDiagram extends Diagram implements ComponentListener {
     public void restoreOrphanedNodes(List<TreeNodePanel> orphans) {
         orphans.forEach(o -> addNode(o));
     }
+
+    @Override
+    public void toggleUpdateThread(boolean on) {
+    }
 }

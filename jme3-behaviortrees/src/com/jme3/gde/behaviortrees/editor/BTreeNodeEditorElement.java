@@ -578,5 +578,9 @@ public final class BTreeNodeEditorElement extends JPanel implements
 
     @Override
     public void componentDeactivated() { }
+
+    @Override
+    public void notifyDefaultValueUpdated(String name, String value) {
+    }
     
 }
